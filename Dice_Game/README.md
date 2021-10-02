@@ -1,4 +1,4 @@
-# Modal Window
+# Dice Game
 
 
 
