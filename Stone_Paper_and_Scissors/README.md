@@ -1,4 +1,4 @@
-# Modal Window
+# Stone_Paper_and_Scissors
 
 
 
