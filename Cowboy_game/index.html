@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cowboys Game</title>
+	</head>
+	<style>
+		.img {
+			position: absolute;
+			right: 0%;
+		}
+		.h1 {
+			text-align: center;
+		}
+		.h1counting {
+			position: absolute;
+			right: 49.5%;
+		}
+		.start {
+			color: black;
+			background-color: red;
+			position: absolute;
+			right: 46.5%;
+		}
+	</style>
+	<body>
+		<h1 class="h1">Wygrał:</h1>
+		<h2 id="score" class="h1"></h2>
+
+		<section>
+			<img
+				id="first"
+				src="https://freesvg.org/img/Cowboy-Shooting-Gun-Wild-West-Vector-Pixel-Art.png"
+			/>
+
+			<img class="img" src="https://freesvg.org/img/Cowboy-At-The-Ready.png" />
+		</section>
+		<button class="start">Zacznij pojedynek</button>
+		<h1 class="h1counting" id="h1"></h1>
+		<h1 class="h1" id="midday"></h1>
+		<script src="Game.js"></script>
+		<script src="PlayerOne.js"></script>
+		<script src="PlayerTwo.js"></script>
+	</body>
+</html>
