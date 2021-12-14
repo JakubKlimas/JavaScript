@@ -2,7 +2,6 @@ class PlayerOne extends Game {
 	constructor() {
 		super();
 		const game = new Game();
-		// this.imgOne = document.querySelector('img[id ="first"]');
 		this.player = 'Player One';
 		this.imageOne = document.querySelector('div[id="imageOne"]');
 		addEventListener('keypress', this.shot.bind(this));
